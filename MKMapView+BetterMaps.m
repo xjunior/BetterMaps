@@ -1,4 +1,4 @@
-#import "MKMapView+ZoomToFitAnnotations.h"
+#import "MKMapView+BetterMaps.h"
 
 @implementation MKMapView (ZoomToFitAnnotations)
 
