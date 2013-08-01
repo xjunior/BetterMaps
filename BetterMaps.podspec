@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Carlos Palhares" => "me@xjunior.me" }
-  s.source       = { :git => "https://github.com/xjunior/BetterMaps.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/xjunior/BetterMaps.git", :tag => s.version.to_s }
   s.platform     = :ios, '6.0'
 
   s.source_files = '*.{h,m}'
