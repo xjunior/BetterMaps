@@ -10,7 +10,7 @@
         MKMapRect pointRect = MKMapRectMake(annotationPoint.x, annotationPoint.y, 0.1, 0.1);
         zoomRect = MKMapRectUnion(zoomRect, pointRect);
     }
-    [self setVisibleMapRect:zoomRect animated:YES];
+    [self setVisibleMapRect:zoomRect animated:animated];
 }
 
 @end
